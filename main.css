@@ -32,7 +32,7 @@ form button {
         margin-block-start: 1%;
 }
 
-.Texts h2{
+.Texts h2 {
     text-align: center;
     margin-inline-start: 1%;
     margin-inline-end: 1%;
@@ -130,9 +130,12 @@ section p {
 }
 
 .contact-methods {
-    display: flex;
-    justify-content: space-between;
+    display: flex;    
+    justify-content:space-evenly;
     margin-top: 16px;
+    margin-right: 32px;
+    margin-left: 32px;
+    align-items: none;
 }
 
 form input,
@@ -164,6 +167,10 @@ form button {
     color: #ecf0f1;
     border: none;
     cursor: pointer;
+}
+
+#contact h2{
+    align-items: center;
 }
 
 form button:hover {
