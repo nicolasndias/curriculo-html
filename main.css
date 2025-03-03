@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #182c61;
+    color: #ecf0f1;    
+}
+
+#about img {
+    height: 300px;
+    margin-right: 16px;
+}
+
+header,
+section h2,
+section h3,
+form button {
+        font-family: "Inter", serif;
+        font-weight: bold;
+        font-style: normal;
+
+}
+
+.Texts{
+        text-align: justify;
+        margin-inline-start: 1%;
+        margin-inline-end: 1%;
+        margin-block-start: 1%;
+}
+
+.Texts h2{
+    text-align: center;
+    margin-inline-start: 1%;
+    margin-inline-end: 1%;
+    margin-block-start: 1%;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;      
+}
+
+body, input, textarea {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brands-list img{
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline; 
+    margin-right: 8px;   
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #182c61;
+}
+
+section p {
+    margin-bottom: 16px;
+}
+
+.about {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border: 1px solid #182c61;
+    background-color: #ecf0f1;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4681bc;
+}
+
+footer {
+    background-color: #182c61;
+    color: #ecf0f1;
+    padding: 16px 0;
+    text-align: center;
+}
